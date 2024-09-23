@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Todos</h1>
+    <ul class="todo-list" id="todo-list">
+        <li>
+            <div class="Input-radio">
+                <input type="radio" name="radio" id="radio">
+                <label for="raido">Learn Javascript</label>
+            </div>
+            <div class="button-delete" id="button-delete">
+                <button><i class="fa-solid fa-circle-xmark"></i></button>
+            </div>
+        </li>
+    </ul>
+    <div class="todo-form">
+      <input type="text" id="todo-input" placeholder="Enter a new task" />
+      <button id="add-button">Add</button>
+    </div>
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>

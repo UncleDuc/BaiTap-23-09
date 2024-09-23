@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #ddd;
+    display: flex;
+    justify-content: center ;
+}
+.container{
+    margin-top: 50px;
+    font-family: "Vietname Be pro",sans-serif;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.title{
+    color: #989895;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+li{
+    position: relative;
+}
+
+.todo-list li{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.todo-form input {
+    width: 70%;
+    margin-top: 10px;
+    border: 3px solid #272825;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.Input-radio label{
+    font-size: 12px;
+    margin-left: 4px;
+}
+.button-delete button{
+    border: 0;
+    background-color: white;
+    color: red;
+    margin-right: 18px;
+}
+
+.todo-form #add-button {   
+     padding: 5px;
+     border: 2px solid #272825;
+}
