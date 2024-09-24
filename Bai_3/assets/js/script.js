@@ -1,12 +1,10 @@
-// Select DOM elements
+
 const todoInput = document.getElementById('todo-input');
 const addButton = document.getElementById('add-button');
 const todoList = document.getElementById('todo-list');
 
-// Load todos from Local Storage or initialize an empty array
 let todos = JSON.parse(localStorage.getItem('todos')) || [];
 
-// Render the list of todos
 function renderTodos() {
     todoList.innerHTML = '';
     todos.forEach((todo, index) => {
